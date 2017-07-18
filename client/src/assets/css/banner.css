@@ -1,0 +1,140 @@
+.banner{
+    padding-top: 70px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.banner-container{
+    position: relative;
+}
+
+.banner .carousel-indicators{
+    position: absolute;
+    top: 300px;
+    left: 10%;
+}
+
+.banner-container .carousel-indicators .arrow{
+    width: 12px !important;
+}
+
+.banner .banner-right-column{
+    background: #F9F9FB;
+    padding-right: 0px !important;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+
+.banner .banner-right-column card{
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+.banner .banner-left-column{
+    padding-left: 15%;
+    padding-right: 20px;
+    padding-top: 5%;
+    /*display: flex;*/
+    /*height: 100%;*/
+    /*flex-direction: row;*/
+}
+
+.banner .banner-left-column .publiser-name{
+    font-size: 26px;
+    color: #8B8B8C;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.banner .banner-left-column .post-title{
+    color: #1F2532;
+    font-size: 30px;
+    margin-top: 0px;
+    line-height: 38px;
+}
+
+.banner .banner-left-column .bookmark-icon{
+    position: absolute;
+    margin-top: 5px;
+    width: 20px;
+    right: 0px;
+}
+
+.banner .banner-left-column .post-details-container{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.banner .banner-left-column .clock-icon{
+    width: 20px;
+    position: absolute;
+    left: 0px;
+}
+
+.banner .banner-left-column span.clock-time{
+    position: absolute;
+    left: 25px;
+    margin-top: 3px;
+}
+
+.banner .banner-left-column .share-icon{
+    width: 18px;
+}
+
+.banner .banner-left-column ul{
+    position: absolute;
+    margin-top: 30px;
+}
+
+.banner .banner-left-column ul li{
+    margin-right: 50px;
+    display: inline;
+    position: relative;
+}
+
+.banner .banner-left-column ul li img{
+    /*margin-right: 10px;*/
+}
+
+.banner .banner-left-column ul li .icon-detail{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 3px;
+    /*font-size: 10px;*/
+}
+
+.banner .banner-left-column .start-reading{
+    position: absolute;
+    margin-top: 80px;
+    text-decoration: none;
+    background: #1F2532;
+    padding: 5px 40px;
+    padding-bottom: 2px;
+    color: #F9F9FB;
+    cursor: pointer;
+}
+
+.banner .banner-left-column .start-reading:hover{
+    color: #fff;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 2000ms ease-out;
+}
+
+.fade-leave {
+    opacity: 1;
+}
+
+.fade-leave-active {
+    opacity: 0;
+    transition: opacity 2000ms ease-out;
+}
