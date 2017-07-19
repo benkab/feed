@@ -14,9 +14,9 @@ class PostItem extends Component {
                     </div>
                 </div>
                 <div className="col l5 m5 banner-left-column">
+                    <img src={require('./../assets/icons/bookmark.svg')} alt="icon" className="bookmark-icon" />
                     <p className="publiser-name">
                         Le potentiel
-                        <img src={require('./../assets/icons/bookmark.svg')} alt="icon" className="bookmark-icon" />
                     </p>
                     <p className="post-title">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolore

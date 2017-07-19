@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import BannerItem from './BannerItem';
 import './../assets/css/banner.css';
 
-const source        = require('./../assets/images/fuchs.jpg');
+const source        = require('./../assets/images/dog.jpg');
 const sourceTwo     = require('./../assets/images/building.jpg');
 
 class Banner extends Component {
