@@ -1,0 +1,137 @@
+.chronique ul.section-title-list{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 70px;
+}
+
+.chronique ul.section-title-list li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.chronique ul.section-title-list li a{
+    text-decoration: none;
+    color: #858C9D;
+    font-size: 13px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.chronique ul.section-title-list li a.active{
+    color: #00AB6B;
+}
+
+.chronique .chronique-slider{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow-y: scroll;
+    margin-bottom: 70px !important;
+    padding-left: 15%;
+}
+
+.chronique .chronique-slider::-webkit-scrollbar {
+    display: none !important;
+}
+
+.chronique .chronique-slider .chronique-item-container{
+    min-width: 300px !important;
+    max-width: 300px !important;
+    margin-right: 30px;
+}
+
+.chronique .chronique-slider .chronique-item-container .card .card-image{
+    position: relative;
+}
+
+.chronique .chronique-slider .chronique-item-container .card .card-image .card-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.chronique .chronique-slider .chronique-item-container .card .card-image .card-overlay .readButton{
+    background: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    color: #1F2532;
+    padding: 15px 120px;
+    font-size: 12px;
+}
+
+
+.chronique .chronique-title{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 50px;
+    height: 180px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 25%;
+}
+
+.chronique .chronique-name{
+    color: #E9E7E7;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 70px;
+}
+
+
+.chronique .clock-icon{
+    width: 20px !important;
+    position: absolute !important;
+    bottom: 30px !important;
+}
+
+.chronique .clock-icon-2{
+    width: 20px !important;
+    position: absolute !important;
+    top: 330px !important;
+}
+
+.chronique .clock-time{
+    position: absolute;
+    bottom: 20%;
+    color: #F7F7F7;
+    left: 27px;
+}
+
+.chronique .card-overlay-container{
+    position: relative;
+    height: 100%;
+}
+
+.chronique .card-overlay-container ul{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 17%;
+}
+
+.chronique .card-overlay-container ul li{
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+    /*padding-right: 50px;*/
+}
+
+.chronique .card-overlay-container ul li .icon-detail{
+    color: #F7F7F7;
+    position: absolute;
+    left: 25px;
+    top: 3px;
+}
+
+.chronique .card-overlay-container .bookmark-icon{
+    position: absolute;
+    width: 26px !important;
+    top: 30px !important;
+}
+

@@ -5,6 +5,17 @@ body, html {
   background: #fff;
   font-size: 13px;
   color: #858C9D;
+  position: relative;
+}
+
+.bg{
+  position: absolute;
+  left: 0px;
+  right: 40%;
+  bottom: 0px;
+  height: 40%;
+  background: #F9F9FB;
+  z-index: -1;
 }
 
 

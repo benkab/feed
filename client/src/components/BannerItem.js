@@ -6,10 +6,10 @@ class BannerItem extends Component {
     render(props) {
         return (
             <div className="row banner-container">
-                <div className="col l5 m5 banner-left-column">
+                <div className="col l5 m5 s12 banner-left-column">
+                    <img src={require('./../assets/icons/bookmark.svg')} alt="icon" className="bookmark-icon" />
                     <p className="publiser-name">
                         Le potentiel
-                        <img src={require('./../assets/icons/bookmark.svg')} alt="icon" className="bookmark-icon" />
                     </p>
                     <p className="post-title">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolore
@@ -33,7 +33,7 @@ class BannerItem extends Component {
                         <img src={require('./../assets/icons/arrow-right.svg')} alt="icon" className="arrow-icon" />
                     </a>
                 </div>
-                <div className="col l7 m7 banner-right-column">
+                <div className="col l7 m7 s12 banner-right-column">
                     <div className="card">
                         <div className="card-image">
                             <ReactCSSTransitionGroup
